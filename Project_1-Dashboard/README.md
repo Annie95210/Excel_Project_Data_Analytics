@@ -1,4 +1,4 @@
-# 📊 Salary Dashboard – Excel Data Analytics Project
+# 📊 Excel Data Analytics: Salary Dashboard
 ![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-green)
 ![Status](https://img.shields.io/badge/Project-Completed-blue)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Analytics-orange)
@@ -37,7 +37,6 @@ My final dashboard is in [1_Salary_Dashboard](1_Salary_Dashboard.xlsx)
 ### 📉 Charts
 
 #### 📊 Data Science Job Salaries - Bar Chart
-
 <img width="436" height="289" alt="image" src="https://github.com/user-attachments/assets/c474da80-7bd2-4948-b93c-676cf9dd3d3d" />
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
@@ -61,20 +60,17 @@ My final dashboard is in [1_Salary_Dashboard](1_Salary_Dashboard.xlsx)
 
 ```
 =MEDIAN(
-IF(
-    (jobs[job_title_short]=A2)*
+  IF((jobs[job_title_short]=A2)*
+    (jobs[salary_year_avg]<>0)*
     (jobs[job_country]=country)*
-    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
-    (jobs[salary_year_avg]<>0),
-    jobs[salary_year_avg]
-)
-)
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type]))),
+    jobs[salary_year_avg]))
 ```
 
 - 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
 - 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
 - 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
-- **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
+- 🔢 **Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 🍽️ Background Table
 
@@ -87,11 +83,11 @@ IF(
 #### ⏰ Count of Job Schedule Type
 
 ```
-=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#)))*(J2#<>0)))
 ```
 
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
-- **🔢 Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
+- 🔢 **Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
 🍽️ Background Table
 
