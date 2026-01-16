@@ -125,7 +125,7 @@ These insights support informed decisions around job targeting, relocation, and 
 - Skills such as SQL and Python appear most frequently across data-related jobs.
 - Cloud and modern data technologies show strong representation, reflecting industry trends.
 
-<img width="702" height="463" alt="image" src="https://github.com/user-attachments/assets/d09dcc6d-3679-4197-84e6-dd96182d9bfa" />
+<img width="719" height="463" alt="image" src="https://github.com/user-attachments/assets/6b478d8e-9dd7-4162-a757-756d50bbe14c" />
 
 **Why it matters:**  
 Understanding commonly required skills helps professionals prioritize learning and stay aligned with market demand.
