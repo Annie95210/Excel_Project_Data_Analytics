@@ -1,4 +1,4 @@
-# Project 2 — Market Analysis of Data Roles & Skills
+# Excel Data Analytics: Market Analysis of Data Roles and Skills
 
 ## Introduction
 
@@ -60,13 +60,29 @@ Key fields include:
   - Removing unnecessary fields
   - Cleaning text values
   - Trimming excess whitespace
+    
+    - 📊 data_jobs_all
+
+<img width="366" height="516" alt="image" src="https://github.com/user-attachments/assets/c0f6f4fa-88b8-490a-9acf-d8538359ab2a" />
+
+   - 🛠️ data_job_skills
+    
+<img width="366" height="523" alt="image" src="https://github.com/user-attachments/assets/5ff9b959-a00a-412b-95a5-2ec689d00026" />
 
 #### Data Loading
 - The transformed queries were loaded into the Excel workbook to support modeling and analysis.
+  
+    - 📊 data_jobs_all
+<img width="1914" height="932" alt="image" src="https://github.com/user-attachments/assets/a22f36dc-559b-456a-ba71-7f921300bb24" />
+  
+    - 🛠️ data_job_skills
+<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/7a068a85-ba5f-4174-8fcf-e3fc8e43d965" />
 
 ### 📊 Analysis & Insights
 - Roles requiring a broader set of skills tend to show higher median salaries.
 - Jobs with fewer skill requirements generally fall into lower salary ranges.
+
+<img width="823" height="492" alt="image" src="https://github.com/user-attachments/assets/7c423806-ca1a-4901-9d61-134ff5547638" />
 
 **Why it matters:**  
 Building a broader and more specialized skill set can positively influence earning potential, especially for senior and technical roles.
@@ -85,6 +101,8 @@ Building a broader and more specialized skill set can positively influence earni
 ### 📊 Analysis & Insights
 - Senior data roles consistently command higher salaries across regions.
 - U.S.-based positions generally offer higher median pay, particularly in technical roles.
+  
+<img width="1133" height="436" alt="image" src="https://github.com/user-attachments/assets/ae0b850e-e524-478f-ab99-a0670bfebd4d" />
 
 **Why it matters:**  
 These insights support informed decisions around job targeting, relocation, and salary negotiations.
@@ -96,11 +114,18 @@ These insights support informed decisions around job targeting, relocation, and 
 ### 🔧 Technique Used: Power Pivot
 
 - A data model was created by linking job data with skill data using a shared job identifier.
+- 
+<img width="1788" height="1264" alt="2_Project_Analysis_Screenshot5" src="https://github.com/user-attachments/assets/875c7e7d-30da-42c8-9cf0-56ec8be56ada" />
+
 - Cleaned data from Power Query enabled reliable relationships between tables.
+
+<img width="1914" height="978" alt="image" src="https://github.com/user-attachments/assets/9ffc3f4b-f8e0-4eab-9ab6-10f08303be76" />
 
 ### 📊 Analysis & Insights
 - Skills such as SQL and Python appear most frequently across data-related jobs.
 - Cloud and modern data technologies show strong representation, reflecting industry trends.
+
+<img width="702" height="463" alt="image" src="https://github.com/user-attachments/assets/d09dcc6d-3679-4197-84e6-dd96182d9bfa" />
 
 **Why it matters:**  
 Understanding commonly required skills helps professionals prioritize learning and stay aligned with market demand.
@@ -119,6 +144,8 @@ Understanding commonly required skills helps professionals prioritize learning a
 ### 📊 Analysis & Insights
 - Technical skills like Python and SQL are associated with higher median salaries.
 - General productivity tools correlate with lower pay and lower demand.
+  
+<img width="809" height="419" alt="image" src="https://github.com/user-attachments/assets/cf079ba9-231c-4c1f-98e7-3e6c2b9f18bb" />
 
 **Why it matters:**  
 The analysis highlights which skills offer the strongest return on investment for career growth.
